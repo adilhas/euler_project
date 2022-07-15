@@ -18,5 +18,19 @@ function sumArr() {
   return result;
 }
 
-console.log(sumArr());
+// console.log(sumArr());
 //* task 1 END
+
+//*task 2 START
+function getFibonacciSequence() {
+  let fibonacciSequence = [1, 2];
+  let lastElement = fibonacciSequence[fibonacciSequence.length - 1];
+  let secLastElement = fibonacciSequence[fibonacciSequence.length - 2];
+  let result = lastElement + secLastElement;
+  //   for (let i = 1; fibonacciSequence.length==10;i++){
+
+  // }
+  return result;
+}
+console.log(getFibonacciSequence());
+//*task 2 END
